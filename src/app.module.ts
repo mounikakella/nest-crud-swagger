@@ -6,7 +6,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import * as process from "process";
 
 const username = process.env.POSTGRES_USER || 'postgres';
-const password = process.env.POSTGRES_PASSWORD || 'example';
+const password = process.env.POSTGRES_PASSWORD || 'postgres';
 
 @Module({
   imports: [
